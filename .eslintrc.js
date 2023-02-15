@@ -4,10 +4,10 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["xo, prettier "],
+  extends: ["xo", "prettier"],
   overrides: [
     {
-      extends: ["xo-typescript, prettier"],
+      extends: ["xo-typescript", "prettier"],
       files: ["*.ts", "*.tsx"],
     },
   ],
